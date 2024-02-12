@@ -26,3 +26,15 @@ span.inline-block {
     display: inline-block;
     margin-right: 10px;
 }
+#specialImage1 {
+    margin-right: 20px; 
+    transform: rotate(90deg); 
+}
+#specialImage2 {
+    margin-right: 20px; 
+    transform: rotate(340deg); 
+}
+#specialImage3 {
+    margin-right: 20px; 
+    transform: rotate(170deg); 
+}
