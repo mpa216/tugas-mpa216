@@ -4,14 +4,14 @@ body {
     color: #FFFFFF;
 }
 header, footer {
-    background-color: #007BFF;
+    background-color: #000000;
     color: white;
     padding: 20px;
     text-align: center;
 }
 div.content {
     margin: 20px;
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -29,19 +29,19 @@ span.inline-block {
 }
 #specialImage1 {
     position: relative;
-    margin-right: 20px; 
+    margin-right:50px; 
     transform: rotate(90deg); 
-    top: -20px;
+    top: -50px;
 }
 #specialImage2 {
     position: relative;
-    margin-right: 20px; 
+    margin-right: 50px; 
     transform: rotate(340deg);
-    top: -20px;
+    top: -50px;
 }
 #specialImage3 {
     position: relative;
-    margin-right: 20px; 
+    margin-right: 50px; 
     transform: rotate(170deg);
-    top: -20px;
+    top: -50px;
 }
