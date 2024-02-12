@@ -28,20 +28,20 @@ span.inline-block {
     margin-right: 10px;
 }
 #specialImage1 {
+    position: relative;
     margin-right: 20px; 
     transform: rotate(90deg); 
-    position: relative;
     top: -20px;
 }
 #specialImage2 {
+    position: relative;
     margin-right: 20px; 
     transform: rotate(340deg);
-    position: relative;
     top: -20px;
 }
 #specialImage3 {
+    position: relative;
     margin-right: 20px; 
     transform: rotate(170deg);
-    position: relative;
     top: -20px;
 }
