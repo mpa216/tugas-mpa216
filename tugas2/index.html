@@ -2,6 +2,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <script>
+        function confirmInput() {
+          fname = document.forms[0].fname.value;
+          alert("Hello " + fname + "! You will now be redirected to my steam account");
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -34,9 +40,15 @@
     </section>
     <footer>
         Fun Fact: Gepard ku sudah E4
+        
     </footer>
     <div class="block">
         <img src="gepard.png" alt="gepard" width="800" height="500">
     </div>
+    <form onsubmit="confirmInput()" action="https://steamcommunity.com/profiles/76561198074940032/">
+        Enter your name: <input id="fname" type="text" size="20">
+        <input type="submit">
+    </form>
+      
 </body>
 </html>
